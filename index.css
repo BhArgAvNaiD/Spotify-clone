@@ -18,11 +18,11 @@ body{
     color:white;
     font-family: 'Varela Round',sans-serif;
     display: flex;
-    width:70%;
+    width:90%;
     border-radius:12px;
     border:2px white solid;
-    margin:23px auto;
-    background-image: url('bgg.png');
+    margin:75px auto 18px auto;
+    background-image: url('cover.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -43,6 +43,9 @@ body{
 
 nav{
     font-family: 'Ubuntu','sans-serif';
+    position: fixed;
+    width:100%;
+    top:0;
 }
 
 nav ul{
@@ -60,7 +63,7 @@ nav ul li{
 
 /*--- MAIN CONTENT ---*/
 .bottom{
-    position:sticky;
+    /* position:sticky; */
     height:130px;
     background-color: black;
     color:white;
